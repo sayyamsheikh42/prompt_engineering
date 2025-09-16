@@ -186,19 +186,19 @@ Before diving into prompt techniques, understand these key parameters that contr
 
 The simplest approach—just ask directly without examples.
 
-**Example:**
+**Example 1:**
 ```
 Classify this movie review as positive, negative, or neutral:
 "The film was visually stunning but the plot felt rushed."
 ```
 
-**Example:**
+**Example 2:**
 ```
 Classify this restaurant review as positive, negative, or neutral:
 "The service was excellent and the food was delicious, but the prices were quite high."
 ```
 
-**Example:**
+**Example 3:**
 ```
 Classify this product review as positive, negative, or neutral:
 "The smartphone has great battery life and camera quality, however the screen is too small for my needs."
@@ -213,7 +213,7 @@ Classify this product review as positive, negative, or neutral:
 
 Provide a single example to guide the response format.
 
-**Example:**
+**Example 1:**
 ```
 Translate English to French:
 
@@ -224,7 +224,7 @@ English: "Where is the library?"
 French:
 ```
 
-**Example:**
+**Example 2:**
 ```
 Generate Python code for a function:
 
@@ -239,7 +239,7 @@ Task: "Create a function that reverses a string"
 Code:
 ```
 
-**Example:**
+**Example 3:**
 ```
 Summarize customer emails:
 
@@ -254,7 +254,7 @@ Summary:
 
 Provide multiple examples to establish a clear pattern.
 
-**Example:**
+**Example 1:**
 ```
 Convert customer feedback to structured data:
 
@@ -268,7 +268,7 @@ Feedback: "Terrible food and rude staff"
 JSON:
 ```
 
-**Example:**
+**Example 2:**
 ```
 Categorize products by type and price range:
 
@@ -282,7 +282,7 @@ Product: "Stainless steel water bottle, 32oz capacity"
 Category:
 ```
 
-**Example:**
+**Example 3:**
 ```
 Analyze social media posts for engagement prediction:
 
@@ -306,7 +306,7 @@ Engagement:
 
 Set overall context and behavior guidelines.
 
-**Example:**
+**Example 1:**
 ```
 You are a helpful travel guide. Provide practical, accurate information about destinations. Always include:
 - Key attractions
@@ -317,7 +317,7 @@ You are a helpful travel guide. Provide practical, accurate information about de
 User: Tell me about visiting Tokyo.
 ```
 
-**Example:**
+**Example 2:**
 ```
 You are a certified fitness coach. Provide personalized workout and nutrition advice. Always include:
 - Exercise recommendations based on fitness level
@@ -328,7 +328,7 @@ You are a certified fitness coach. Provide personalized workout and nutrition ad
 User: I'm a beginner who wants to start strength training.
 ```
 
-**Example:**
+**Example 3:**
 ```
 You are a licensed financial advisor. Provide sound investment and financial planning guidance. Always include:
 - Risk assessment and tolerance
@@ -343,17 +343,17 @@ User: I'm 25 years old and want to start investing for retirement.
 
 Assign a specific character or expertise to the AI.
 
-**Example:**
+**Example 1:**
 ```
 Act as an experienced software architect. I need help designing a scalable web application for 1 million users. What architecture patterns should I consider?
 ```
 
-**Example:**
+**Example 2:**
 ```
 Act as a senior marketing strategist with 15 years of experience in digital marketing. I'm launching a new eco-friendly skincare brand targeting millennials. What marketing channels and strategies should I prioritize for the first 6 months?
 ```
 
-**Example:**
+**Example 3:**
 ```
 Act as a medical researcher specializing in cardiovascular health. I'm conducting a study on the effects of intermittent fasting on heart disease risk factors. What key biomarkers should I measure and what potential confounding variables should I control for?
 ```
@@ -368,21 +368,21 @@ Act as a medical researcher specializing in cardiovascular health. I'm conductin
 
 Provide specific background information relevant to the task.
 
-**Example:**
+**Example 1:**
 ```
 Context: You're writing for a tech blog aimed at beginners who have never coded before.
 
 Write a 200-word explanation of what an API is, using simple language and practical examples.
 ```
 
-**Example:**
+**Example 2:**
 ```
 Context: You're writing a research paper for a peer-reviewed academic journal in environmental science.
 
 Write a 300-word abstract summarizing the methodology and findings of a study on urban heat island effects in major cities, including statistical significance and implications for climate policy.
 ```
 
-**Example:**
+**Example 3:**
 ```
 Context: You're presenting to C-level executives at a Fortune 500 company who need to make budget decisions for next quarter.
 
@@ -395,7 +395,7 @@ Write a 150-word executive summary explaining the ROI of implementing AI-powered
 
 Encourage step-by-step reasoning for complex problems.
 
-**Example:**
+**Example 1:**
 ```
 Solve this step by step:
 If I was 6 when my sister was half my age, how old is my sister when I'm 40?
@@ -403,7 +403,7 @@ If I was 6 when my sister was half my age, how old is my sister when I'm 40?
 Let me think through this step by step:
 ```
 
-**Example:**
+**Example 2:**
 ```
 Analyze this business scenario step by step:
 A company's revenue increased by 25% this quarter, but their profit margin decreased from 15% to 12%. Their customer acquisition cost went up by 30%, but customer lifetime value only increased by 10%. What are the likely causes and what should they investigate?
@@ -411,7 +411,7 @@ A company's revenue increased by 25% this quarter, but their profit margin decre
 Let me break this down systematically:
 ```
 
-**Example:**
+**Example 3:**
 ```
 Solve this scientific problem step by step:
 A scientist is studying the effect of temperature on enzyme activity. At 20°C, the enzyme shows 80% activity. At 30°C, it shows 95% activity. At 40°C, it shows 60% activity. At 50°C, it shows 20% activity. What is happening and why?
@@ -439,7 +439,7 @@ Generate multiple reasoning paths and select the most common answer.
 2. Compare the answers
 3. Choose the most frequently occurring result
 
-**Example:**
+**Example 1:**
 ```
 Question: If a store offers a 20% discount on a $50 item, what is the final price?
 
@@ -454,7 +454,7 @@ Path 3: Compute the discount amount: 20% = 0.20, so 0.20 × $50 = $10 off. The o
 Most common answer: $40
 ```
 
-**Example:**
+**Example 2:**
 ```
 Question: A dataset shows that 60% of customers who bought Product A also bought Product B. If 1000 customers bought Product A, how many likely bought Product B?
 
@@ -469,7 +469,7 @@ Path 3: Calculate 60% of 1000: 1000 × 0.60 = 600. Therefore, 600 customers who 
 Most common answer: 600 customers
 ```
 
-**Example:**
+**Example 3:**
 ```
 Question: If all roses are flowers, and some flowers are red, can we conclude that some roses are red?
 
