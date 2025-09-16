@@ -192,6 +192,18 @@ Classify this movie review as positive, negative, or neutral:
 "The film was visually stunning but the plot felt rushed."
 ```
 
+**Example:**
+```
+Classify this restaurant review as positive, negative, or neutral:
+"The service was excellent and the food was delicious, but the prices were quite high."
+```
+
+**Example:**
+```
+Classify this product review as positive, negative, or neutral:
+"The smartphone has great battery life and camera quality, however the screen is too small for my needs."
+```
+
 **When to use:**
 - Simple, well-defined tasks
 - When the model has clear knowledge of the domain
@@ -212,6 +224,32 @@ English: "Where is the library?"
 French:
 ```
 
+**Example:**
+```
+Generate Python code for a function:
+
+Task: "Create a function that calculates the factorial of a number"
+Code: 
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+Task: "Create a function that reverses a string"
+Code:
+```
+
+**Example:**
+```
+Summarize customer emails:
+
+Email: "Hi, I'm having trouble logging into my account. I've tried resetting my password multiple times but haven't received any emails. Can you please help me resolve this issue? Thanks!"
+Summary: "Customer experiencing login issues and password reset problems"
+
+Email: "I love your new product features! The interface is much cleaner and the performance is noticeably faster. Keep up the great work!"
+Summary:
+```
+
 ### 3. Few-Shot Prompting
 
 Provide multiple examples to establish a clear pattern.
@@ -228,6 +266,34 @@ JSON: {"service": "positive", "food": "positive", "overall": "positive"}
 
 Feedback: "Terrible food and rude staff"
 JSON:
+```
+
+**Example:**
+```
+Categorize products by type and price range:
+
+Product: "Wireless Bluetooth headphones with noise cancellation"
+Category: {"type": "electronics", "price_range": "mid-range"}
+
+Product: "Organic cotton t-shirt, handmade in Peru"
+Category: {"type": "clothing", "price_range": "premium"}
+
+Product: "Stainless steel water bottle, 32oz capacity"
+Category:
+```
+
+**Example:**
+```
+Analyze social media posts for engagement prediction:
+
+Post: "Just finished my morning run! Feeling energized and ready to tackle the day 💪 #fitness #motivation"
+Engagement: {"sentiment": "positive", "hashtags": 2, "predicted_likes": "high"}
+
+Post: "Another rainy day in Seattle... when will this end? 😔"
+Engagement: {"sentiment": "negative", "hashtags": 0, "predicted_likes": "low"}
+
+Post: "Check out this amazing sunset from my hike today! Nature never fails to amaze me 🌅"
+Engagement:
 ```
 
 **Best practices:**
@@ -251,6 +317,28 @@ You are a helpful travel guide. Provide practical, accurate information about de
 User: Tell me about visiting Tokyo.
 ```
 
+**Example:**
+```
+You are a certified fitness coach. Provide personalized workout and nutrition advice. Always include:
+- Exercise recommendations based on fitness level
+- Proper form and safety considerations
+- Nutrition guidelines
+- Recovery and rest recommendations
+
+User: I'm a beginner who wants to start strength training.
+```
+
+**Example:**
+```
+You are a licensed financial advisor. Provide sound investment and financial planning guidance. Always include:
+- Risk assessment and tolerance
+- Diversification strategies
+- Long-term vs short-term considerations
+- Tax implications and fees
+
+User: I'm 25 years old and want to start investing for retirement.
+```
+
 ### 5. Role Prompting
 
 Assign a specific character or expertise to the AI.
@@ -258,6 +346,16 @@ Assign a specific character or expertise to the AI.
 **Example:**
 ```
 Act as an experienced software architect. I need help designing a scalable web application for 1 million users. What architecture patterns should I consider?
+```
+
+**Example:**
+```
+Act as a senior marketing strategist with 15 years of experience in digital marketing. I'm launching a new eco-friendly skincare brand targeting millennials. What marketing channels and strategies should I prioritize for the first 6 months?
+```
+
+**Example:**
+```
+Act as a medical researcher specializing in cardiovascular health. I'm conducting a study on the effects of intermittent fasting on heart disease risk factors. What key biomarkers should I measure and what potential confounding variables should I control for?
 ```
 
 **Effective roles:**
@@ -277,6 +375,20 @@ Context: You're writing for a tech blog aimed at beginners who have never coded 
 Write a 200-word explanation of what an API is, using simple language and practical examples.
 ```
 
+**Example:**
+```
+Context: You're writing a research paper for a peer-reviewed academic journal in environmental science.
+
+Write a 300-word abstract summarizing the methodology and findings of a study on urban heat island effects in major cities, including statistical significance and implications for climate policy.
+```
+
+**Example:**
+```
+Context: You're presenting to C-level executives at a Fortune 500 company who need to make budget decisions for next quarter.
+
+Write a 150-word executive summary explaining the ROI of implementing AI-powered customer service chatbots, focusing on cost savings, efficiency gains, and competitive advantages.
+```
+
 ## Advanced Prompting Strategies
 
 ### Chain of Thought (CoT) Prompting
@@ -289,6 +401,22 @@ Solve this step by step:
 If I was 6 when my sister was half my age, how old is my sister when I'm 40?
 
 Let me think through this step by step:
+```
+
+**Example:**
+```
+Analyze this business scenario step by step:
+A company's revenue increased by 25% this quarter, but their profit margin decreased from 15% to 12%. Their customer acquisition cost went up by 30%, but customer lifetime value only increased by 10%. What are the likely causes and what should they investigate?
+
+Let me break this down systematically:
+```
+
+**Example:**
+```
+Solve this scientific problem step by step:
+A scientist is studying the effect of temperature on enzyme activity. At 20°C, the enzyme shows 80% activity. At 30°C, it shows 95% activity. At 40°C, it shows 60% activity. At 50°C, it shows 20% activity. What is happening and why?
+
+Let me analyze this data systematically:
 ```
 
 **When to use:**
@@ -321,9 +449,39 @@ Path 1: To find the final price, calculate the discount: 20% of $50 is 0.20 × 5
 
 Path 2: A 20% discount means paying 80% of the original price. So, 80% of $50 is 0.80 × 50 = $40. Therefore, the final price is $40.
 
-Path 3: Compute the discount amount: 20% = 0.20, so 0.20 × $50 = $10 off. The original price is $50, so after the discount, it’s $50 - $10 = $40. The final price is $40.
+Path 3: Compute the discount amount: 20% = 0.20, so 0.20 × $50 = $10 off. The original price is $50, so after the discount, it's $50 - $10 = $40. The final price is $40.
 
 Most common answer: $40
+```
+
+**Example:**
+```
+Question: A dataset shows that 60% of customers who bought Product A also bought Product B. If 1000 customers bought Product A, how many likely bought Product B?
+
+Generate 3 different reasoning paths for this question and select the most consistent answer.
+
+Path 1: If 60% of customers who bought Product A also bought Product B, then out of 1000 customers who bought Product A, 60% of them bought Product B. So, 60% of 1000 = 0.60 × 1000 = 600 customers bought Product B.
+
+Path 2: The correlation is 60%, meaning 60 out of every 100 customers who bought Product A also bought Product B. For 1000 customers: (60/100) × 1000 = 600 customers bought Product B.
+
+Path 3: Calculate 60% of 1000: 1000 × 0.60 = 600. Therefore, 600 customers who bought Product A also bought Product B.
+
+Most common answer: 600 customers
+```
+
+**Example:**
+```
+Question: If all roses are flowers, and some flowers are red, can we conclude that some roses are red?
+
+Generate 3 different reasoning paths for this question and select the most consistent answer.
+
+Path 1: We know all roses are flowers, and some flowers are red. Since roses are a subset of flowers, and some flowers are red, it's possible that some roses are red. However, we cannot definitively conclude this because the red flowers might not include any roses. The answer is: We cannot definitively conclude this.
+
+Path 2: All roses are flowers (Roses ⊆ Flowers), and some flowers are red (Flowers ∩ Red ≠ ∅). Since roses are flowers, and some flowers are red, there's a possibility that some roses are red, but it's not guaranteed. The conclusion is uncertain.
+
+Path 3: The premises tell us roses are flowers and some flowers are red. But "some flowers are red" doesn't specify which flowers. The red flowers could be entirely separate from roses. We cannot logically conclude that some roses are red from these premises alone.
+
+Most common answer: We cannot definitively conclude that some roses are red
 ```
 
 **Explanation of Concept:**
