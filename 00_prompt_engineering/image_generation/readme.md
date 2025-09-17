@@ -264,6 +264,10 @@ High-fashion portrait: dramatic pose, designer clothing, studio backdrop with gr
 Lifestyle portrait: modern home office setting, natural window light, smart casual attire, confident yet approachable expression, environmental context showing personality, lifestyle photography style, authentic moment capture
 </div>
 
+### Common Mistakes Vs Best Practices 
+
+![](./CMBP.png)
+
 ## Common Mistakes to Avoid
 
 ### ❌ Too Vague
