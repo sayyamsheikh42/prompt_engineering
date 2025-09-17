@@ -67,7 +67,7 @@ Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
 
 Prompt engineering is the art and science of crafting instructions that guide AI language models to produce desired outputs. Think of it as learning to communicate effectively with AI systems to achieve specific goals.
 
-![](./image_generation/prompteng.png)
+![](./image_generation/prompteng2.png)
 
 **Why is it important?**
 - You don't need to be a programmer to use AI effectively
