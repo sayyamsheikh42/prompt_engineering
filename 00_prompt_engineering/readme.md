@@ -139,6 +139,12 @@ Note: This is bonus material, due to high cost of the Veo 3 model this tutor in 
 
 https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing
 
+## Code Generation Tutorial
+
+[Code Generation with GitHub Copilot and Cursor](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/code_generation/readme.md)
+
+Master AI-powered code generation with the world's best developer tools. Learn effective prompting techniques for GitHub Copilot and Cursor to generate high-quality, production-ready code across different programming languages and frameworks.
+
 
 ## Understanding Large Language Models
 
