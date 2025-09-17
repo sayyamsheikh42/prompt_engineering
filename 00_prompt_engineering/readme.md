@@ -186,9 +186,7 @@ Before diving into prompt techniques, understand these key parameters that contr
 
 ## Fundamental Prompting Techniques
 
-
-
-
+![](./image_generation/fundamentals1.png)
 
 ### 1. Zero-Shot Prompting
 
