@@ -53,7 +53,7 @@ Mood & Style: modern, minimalistic, premium personal-branding aesthetic, sharp c
 
 Original Image:
 
-![](original.jpeg)
+![](./WhatsApp%20Image%202025-09-17%20at%2012.40.40.jpeg)
 
 Generated:
 
@@ -106,9 +106,9 @@ create moody black and white portrait of a man, hand resting near mouth, deep ga
 
 Generated:
 
-![](./g2.jpeg)
+![](./M.Usman%20P.2.png)
 
-![](./g2b.png)
+![](./Generated%20Image%20September%2017,%202025%20-%201_17PM.png)
 
 ✅ **What Worked Here**
 
@@ -130,7 +130,7 @@ Professional corporate headshot of a confident middle-aged man, wearing a tailor
 
 Generated:
 
-![](./g3.png)
+![](./M.Usman%20P.3.png)
 
 
 ✅ **Why This Works:**
@@ -151,7 +151,7 @@ Full-body futuristic portrait of the uploaded subject, standing in a sleek cyber
 
 Generated:
 
-![](./g4.png)
+![](./M.Usman%20P.4.png)
 
 ---
 
@@ -167,7 +167,7 @@ Editorial fashion portrait of a man sitting on a modern chair, dressed in a shar
 
 Generated:
 
-![](./g5.png)
+![](./M.Usman%20P.5.png)
 
 ---
 
@@ -183,7 +183,7 @@ Digital abstract vector art of the uploaded subject, face geometrically stylized
 
 Generated:
 
-![](./g6.png)
+![](./M.Usman%20P.6.png)
 
 ---
 
