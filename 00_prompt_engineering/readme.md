@@ -67,7 +67,7 @@ Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
 
 Prompt engineering is the art and science of crafting instructions that guide AI language models to produce desired outputs. Think of it as learning to communicate effectively with AI systems to achieve specific goals.
 
-
+![](./image_generation/prompteng.png)
 
 **Why is it important?**
 - You don't need to be a programmer to use AI effectively
@@ -183,6 +183,8 @@ Before diving into prompt techniques, understand these key parameters that contr
 - Creative: Temperature 0.9, Top-P 0.99, Top-K 40
 
 ## Fundamental Prompting Techniques
+
+![](./image_generation/funsamentals.png)
 
 ### 1. Zero-Shot Prompting
 
@@ -692,6 +694,8 @@ Context: This is for a {industry} company with {company_size} employees
 
 ## Common Pitfalls and How to Avoid Them
 
+![](./image_generation/CPP.png)
+
 ### 1. Ambiguous Instructions
 
 **Problem:** Vague requests lead to unpredictable outputs
@@ -800,6 +804,8 @@ Please include:
 ```
 
 ## Testing and Iteration
+
+![](./image_generation/Screenshot%202025-09-17%20at%2017.03.34.png)
 
 ### 1. Create a Testing Framework
 

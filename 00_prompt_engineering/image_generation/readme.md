@@ -215,6 +215,9 @@ Generated:
    * Start broad (*“corporate portrait”*), then refine with poses, props, typography.
 
 ---
+### Advanced Techniques in prompt engineering
+
+![](./ATP.png)
 
 ## Advanced Techniques
 
