@@ -57,7 +57,7 @@ Original Image:
 
 Generated:
 
-![](./g1.png)
+![](./M.Usman%20P.1.png)
 
 ✅ **What Worked Here**
 
