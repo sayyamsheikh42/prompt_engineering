@@ -217,7 +217,7 @@ Generated:
 ---
 ### Advanced Techniques in prompt engineering
 
-![](./ATP.png)
+![](./ATP1.png)
 
 ## Advanced Techniques
 
@@ -269,7 +269,7 @@ Lifestyle portrait: modern home office setting, natural window light, smart casu
 
 ### Common Mistakes Vs Best Practices 
 
-![](./CMBP.png)
+![](./CMBP1.png)
 
 ## Common Mistakes to Avoid
 
