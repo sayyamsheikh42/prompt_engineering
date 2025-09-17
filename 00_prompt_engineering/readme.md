@@ -142,6 +142,8 @@ https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/
 
 ## Understanding Large Language Models
 
+![](./image_generation/llm.png)
+
 ### How LLMs Work (The Basics)
 
 Large Language Models are prediction engines that:
@@ -184,7 +186,9 @@ Before diving into prompt techniques, understand these key parameters that contr
 
 ## Fundamental Prompting Techniques
 
-![](./image_generation/funsamentals.png)
+
+
+
 
 ### 1. Zero-Shot Prompting
 
@@ -394,6 +398,8 @@ Write a 150-word executive summary explaining the ROI of implementing AI-powered
 ```
 
 ## Advanced Prompting Strategies
+
+![](./image_generation/funsamentals.png)
 
 ### Chain of Thought (CoT) Prompting
 
