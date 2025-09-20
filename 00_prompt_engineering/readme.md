@@ -151,6 +151,12 @@ Master AI-powered code generation with the world's best developer tools. Learn e
 
 Master AI-powered UI/UX design with the world's best design tools. Learn effective prompting techniques for Visily.ai, UXPilot.ai, and Figma.ai to generate high-quality, user-centered designs, wireframes, and prototypes across different platforms and industries.
 
+## ChatPRD Generation Tutorial
+
+[ChatPRD Best Prompts for Product/Project Managers](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/chatprd_generation/readme.md)
+
+Master AI-powered PRD creation with the world's best product management tool. Learn effective prompting techniques for ChatPRD to generate comprehensive Product Requirements Documents (PRDs), user stories, and technical specifications that align stakeholders and drive successful product outcomes.
+
 
 ## Understanding Large Language Models
 
